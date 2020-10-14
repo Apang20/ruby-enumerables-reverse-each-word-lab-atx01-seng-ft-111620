@@ -27,4 +27,5 @@ string.each do |i|
 reversed_word = i.reverse 
 reversed.push(reversed_word)
 end 
-#return reversed.join('')
+return reversed.join('')
+end 
