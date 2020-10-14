@@ -28,5 +28,5 @@ def reverse_each_word(string)
   	#binding.pry 
   	reversed.push(reversed_word)
   end 
-  return reversed.join('')
+  return reversed.join(' ')
 end
