@@ -15,7 +15,7 @@ def reverse_each_word(string)
 
 string = string.split('')
 reversed = []
-string.each {|i| reversed.unshift(i)}
+string.each {|i| reversed.push(i.reverse)}
 return reversed.join('')
 
 end 
