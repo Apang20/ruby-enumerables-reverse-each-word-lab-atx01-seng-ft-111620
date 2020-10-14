@@ -22,6 +22,7 @@
 
 
 def reverse_each_word(string) 
+reversed = []
 string = string.split('')
 string.each do |i|
 reversed_word = i.reverse 
