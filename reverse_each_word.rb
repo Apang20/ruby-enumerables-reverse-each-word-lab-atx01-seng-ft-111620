@@ -31,12 +31,13 @@ def reverse_each_word(string)
   return reversed.join(' ')
 end
 
-def reverse_each_word(string) 
+def reverse_each_word(string) #collect returns new arr 
   #reversed = []
   string_array = string.split(' ')
   string_array.collect do |i|
-  	reversed_word = i.reverse 
-  	reversed.push(reversed_word)
-  end 
-  return reversed.join(' ')
+  	#reversed_word = 
+  	i.reverse 
+  	#reversed.push(reversed_word)
+  end.join(' ')
+  #return reversed.join(' ')
 end
