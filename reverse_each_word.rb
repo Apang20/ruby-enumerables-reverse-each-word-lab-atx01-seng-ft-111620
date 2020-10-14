@@ -23,8 +23,8 @@ require 'pry'
 def reverse_each_word(string) 
   reversed = []
   string_array = string.split(' ')
-  string_array.each do |i|
-  	reversed_word = i.reverse 
+  string_array.each do |word|
+  	reversed_word = word.reverse 
   	#binding.pry 
   	reversed.push(reversed_word)
   end 
@@ -41,3 +41,5 @@ end
 def reverse_each_word(string) #collect returns new arr 
   string.split(' ').collect {|i| i.reverse!}.join(' ')
 end
+
+
