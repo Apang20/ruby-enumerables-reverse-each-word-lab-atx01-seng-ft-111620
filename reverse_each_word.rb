@@ -39,8 +39,5 @@ end
 # end
 
 def reverse_each_word(string) #collect returns new arr 
-string_array = string.split(' ')  
-  string_array.collect do |i|
-  	i.reverse! #bang secures the reverse 
-  end.join(' ')
+  string.split(' ').collect {|i| i.reverse!}.join(' ')
 end
