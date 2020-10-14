@@ -1,4 +1,4 @@
-def reverse_each_word(string) 
+
 #string.each do |string|
 #puts string.reverse()
 #string.reverse() #reverses the words and letters in the String
@@ -20,6 +20,8 @@ def reverse_each_word(string)
 #reversed.push(reversed_word)
 #return reversed.join('')
 
+
+def reverse_each_word(string) 
 string = string.split('')
 string.each do |i|
 reversed_word = i.reverse 
