@@ -21,8 +21,8 @@ def reverse_each_word(string)
 #return reversed.join('')
 
 string = string.split('')
-string.each do |i| reversed_word = i.reverse 
+string.each do |i|
+reversed_word = i.reverse 
 reversed.push(reversed_word)
-return reversed.join('')
-
 end 
+return reversed.join('')
