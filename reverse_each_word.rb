@@ -32,11 +32,10 @@ def reverse_each_word(string)
 end
 
 def reverse_each_word(string) 
-  reversed = []
+  #reversed = []
   string_array = string.split(' ')
   string_array.collect do |i|
   	reversed_word = i.reverse 
-  	#binding.pry 
   	reversed.push(reversed_word)
   end 
   return reversed.join(' ')
