@@ -22,7 +22,7 @@ require 'pry'
 
 def reverse_each_word(string) 
   reversed = []
-  string_array = string.split('')
+  string_array = string.split(' ')
   string_array.each do |i|
   	reversed_word = i.reverse 
   	binding.pry 
