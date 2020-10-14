@@ -1,4 +1,4 @@
-
+require 'pry'
 #string.each do |string|
 #puts string.reverse()
 #string.reverse() #reverses the words and letters in the String
@@ -25,6 +25,7 @@ def reverse_each_word(string)
   string_array = string.split('')
   string_array.each do |i|
   	reversed_word = i.reverse 
+  	binding.pry 
   	reversed.push(reversed_word)
   end 
   return reversed.join('')
