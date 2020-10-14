@@ -24,9 +24,9 @@
 def reverse_each_word(string) 
 string = string.split('')
 string.each do |i|
-reversed_word = i.reverse 
-reversed.push(reversed_word)
+reverse_word = i.reverse 
+reverse.push(reversed_word)
 end 
-return reversed.join('')
+return reverse.join('')
 end 
 
